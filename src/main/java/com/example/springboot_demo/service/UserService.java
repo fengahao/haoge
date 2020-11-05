@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 public class UserService {
 
     public ReturnValue addUser(UserInfo user){
+        System.out.println("啦啦啦");
         System.out.println(user.getAsdfl().equals(""));
 
         System.out.println(Integer.valueOf(user.getAsdfl()));
